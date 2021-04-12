@@ -1,0 +1,271 @@
+@font-face {
+    font-family: 'Raleway Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Raleway Light'), url('font/Raleway-Light.woff') format('woff');
+    }
+    @font-face {
+        font-family: 'Raleway SemiBold';
+        font-style: normal;
+        font-weight: normal;
+        src: local('Raleway SemiBold'), url('font/Raleway-SemiBold.woff') format('woff');
+        }
+*
+{
+    font-family: 'Raleway Light';
+    margin: 0;
+    padding: 0;
+}
+
+/*******************/
+     /* DRY */
+/*******************/
+
+.Fontsbold{
+    font-family: 'Raleway SemiBold';
+}
+.Talcenter{
+    text-align: center;
+}
+.Disflexround{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+
+/*******************/
+    /* Head */
+/*******************/
+header{
+    margin-bottom:1rem;
+}
+.Header__logo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 2.5rem;
+    
+    
+}
+.fa-map-marker-alt
+{
+   position: absolute;
+    margin-top: 1.5rem;
+    margin-left: 8rem;
+}
+.header__input input{
+
+    width: 100%;
+    
+    background-color: rgb(228, 224, 224);
+    height: 4rem;
+    border: none;
+    font-size: 1.3rem;
+}
+.Header__titre--first{
+    
+    padding-top: 2rem;
+}
+.Header__acceuil{
+
+    
+    background-color: rgb(242, 242, 242);
+    height: 15rem;
+    margin-bottom: 5rem;
+    margin-top: -1.5rem;
+    padding-bottom: 4rem;
+
+}
+.Header__exploration{
+
+    color: white;
+    background-color: #ba55d3b0;
+    border-radius: 1rem 1rem 1rem 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    
+    width: 15rem;
+    height: 1.5rem;
+    padding: 0.5rem;
+    box-shadow: 0 4px 8px grey;
+  
+}
+
+/************ section 1 fonctionnement********/
+
+
+.Section1__titre{
+    
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+}
+.Section1__Navigation--bulle{
+
+background-color: rgb(242, 242, 242) ;
+    border-radius: 1rem 1rem 1rem 1rem;
+    margin-bottom: 2rem;
+    height: 4.5rem;
+    width: 20rem;
+
+    
+    box-shadow: 0 4px 8px grey;
+    
+    font-size: 13px;    
+   
+}
+.Section1__Navigation--bulle:hover
+{
+    background-color:#c6b9d6 ;
+    
+}
+.Section1__numero{
+    
+    border-radius: 20px;
+    background-color: #906ebd;
+   margin-left: -3rem;
+    width: 40px;
+    height: 40px;
+    
+    color: white;
+}
+.Section1__Navigation--text{
+    padding-right: 3rem;
+    
+}
+
+/************ section 2 Restaurants ********/
+
+.Section2__titre{
+    
+    font-size: 1.2rem;
+}
+
+
+.Section2__card--image {
+    
+    background-color: white;   
+    padding: 2px;
+   margin-bottom: 1.5rem;  
+   
+}
+.Section2__card--image img
+{
+    
+   width: 25rem;
+   height: 13rem;
+    object-fit: cover;
+    border-radius: 2rem 2rem 0rem 0rem 
+}
+
+.Section2__card--mint{
+    border: rgb(138, 216, 89);
+    background-color: rgb(152, 208, 118) ;
+    color: rgb(66, 96, 7);
+    width: 5rem;
+    height: 1rem;
+    font-size: 0.9rem;
+    
+    padding: 0.5rem;
+    
+    border-radius: 1px 1px 1px 1px;
+    margin-left: 17rem; 
+    
+    margin-top: 1rem;
+    position: absolute;
+   
+   
+}
+    
+
+.Section2__card--titre{
+    
+    background-color: white;
+    border-radius: 0rem 0rem 1rem 1rem;
+    box-shadow: 0px 8px 8px grey ;
+    margin-bottom: 2rem;
+    margin-top: -1rem;
+    width: 25.3rem;
+    height: 3.7rem;
+    
+    font-size: 1rem;
+}
+.Section2__card--soustitre{
+    
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+}
+.Section2__logo{
+    padding-left: 22rem;
+    ;
+    
+}
+
+.Section2__logo.far.fa-heart:active{    
+
+    background-color: rgb(121, 67, 121);
+}
+
+
+/************ footer ********/
+
+footer{
+    background-color: rgb(67, 63, 63);
+    color: white;
+    font-size: 0.6rem;
+   
+
+}
+.Footer_logo{
+    margin-left: 0.5rem;
+}
+.Footer__navigation{
+    list-style: none;
+    margin-left: -2rem ;
+    
+    margin-top: 0.2rem;
+}
+
+
+/************  Premier restaurant ********/
+
+/*****************/
+/** header ****/
+
+.R1-header__logo
+{
+    
+    width: 8rem;
+    margin-left: 3rem;
+}
+
+.R1-header__IMG--ALF
+{
+    height: 15rem;
+    width: 15rem;
+    object-fit: cover;
+}
+/*****************/
+/** section restaurant ****/
+
+.R1-section1{
+    background-color: rgb(240, 236, 236);
+    border-radius: 2rem 2rem 0 0;
+    width: 30rem;
+}
+.R1-section1__header{
+    margin-top: 3rem;
+}
+
+.R1-section1__starters--bulle{
+   
+    border: white solid;
+    background-color: white;
+    border-radius: 1rem 1rem 1rem 1rem;
+    width: 28rem;
+    margin-top: 1rem;
+}

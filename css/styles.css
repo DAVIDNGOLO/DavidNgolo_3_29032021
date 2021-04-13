@@ -13,8 +13,7 @@
 *
 {
     font-family: 'Raleway Light';
-    margin: 0;
-    padding: 0;
+    
 }
 
 /*******************/
@@ -34,6 +33,20 @@
     align-items: center;
 }
 
+.commander{
+    color: white;
+    background-color: #ba55d3b0;
+    border-radius: 1rem 1rem 1rem 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+   
+    
+    width: 15rem;
+    height: 1.5rem;
+    padding: 0.5rem;
+    box-shadow: 0 4px 8px grey;
+}
 
 
 
@@ -99,12 +112,12 @@ header{
 /************ section 1 fonctionnement********/
 
 
-.Section1__titre{
+.fonctionnement__titre{
     
     font-size: 1.2rem;
     padding-bottom: 1rem;
 }
-.Section1__Navigation--bulle{
+.fonctionnement__Navigation--bulle{
 
 background-color: rgb(242, 242, 242) ;
     border-radius: 1rem 1rem 1rem 1rem;
@@ -118,12 +131,12 @@ background-color: rgb(242, 242, 242) ;
     font-size: 13px;    
    
 }
-.Section1__Navigation--bulle:hover
+.fonctionnement__Navigation--bulle:hover
 {
     background-color:#c6b9d6 ;
     
 }
-.Section1__numero{
+.fonctionnement__numero{
     
     border-radius: 20px;
     background-color: #906ebd;
@@ -133,27 +146,27 @@ background-color: rgb(242, 242, 242) ;
     
     color: white;
 }
-.Section1__Navigation--text{
+.fonctionnement__Navigation--text{
     padding-right: 3rem;
     
 }
 
 /************ section 2 Restaurants ********/
 
-.Section2__titre{
+.restaurants__titre{
     
     font-size: 1.2rem;
 }
 
 
-.Section2__card--image {
+.restaurants__card--image {
     
     background-color: white;   
     padding: 2px;
    margin-bottom: 1.5rem;  
    
 }
-.Section2__card--image img
+.restaurants__card--image img
 {
     
    width: 25rem;
@@ -162,7 +175,7 @@ background-color: rgb(242, 242, 242) ;
     border-radius: 2rem 2rem 0rem 0rem 
 }
 
-.Section2__card--mint{
+.restaurants__card--mint{
     border: rgb(138, 216, 89);
     background-color: rgb(152, 208, 118) ;
     color: rgb(66, 96, 7);
@@ -182,7 +195,7 @@ background-color: rgb(242, 242, 242) ;
 }
     
 
-.Section2__card--titre{
+.restaurants__card--titre{
     
     background-color: white;
     border-radius: 0rem 0rem 1rem 1rem;
@@ -194,18 +207,18 @@ background-color: rgb(242, 242, 242) ;
     
     font-size: 1rem;
 }
-.Section2__card--soustitre{
+.restaurants__card--soustitre{
     
     font-size: 0.9rem;
     margin-top: 0.5rem;
 }
-.Section2__logo{
+.restaurants__logo{
     padding-left: 22rem;
     ;
     
 }
 
-.Section2__logo.far.fa-heart:active{    
+.restaurants__logo.far.fa-heart:active{    
 
     background-color: rgb(121, 67, 121);
 }
@@ -236,36 +249,125 @@ footer{
 /*****************/
 /** header ****/
 
-.R1-header__logo
+.restaurant-header__logo
 {
     
-    width: 8rem;
+    width: 50%;
     margin-left: 3rem;
 }
 
-.R1-header__IMG--ALF
+.restaurant-header__IMG--ALF
 {
     height: 15rem;
-    width: 15rem;
+    width: 80%;
     object-fit: cover;
+   
 }
 /*****************/
 /** section restaurant ****/
 
-.R1-section1{
+.restaurant-cartecomplete{
     background-color: rgb(240, 236, 236);
     border-radius: 2rem 2rem 0 0;
-    width: 30rem;
+    width: 80%;
+   
 }
-.R1-section1__header{
-    margin-top: 3rem;
+.restaurant-cartecomplete__header{
+   padding-top: 2rem;
+   padding-bottom: 1rem;
+   
+    
 }
-
-.R1-section1__starters--bulle{
+/*****************/
+/** section starter ****/
+.restaurant-cartecomplete__starters--bulle{
    
     border: white solid;
     background-color: white;
     border-radius: 1rem 1rem 1rem 1rem;
-    width: 28rem;
+    box-shadow: 0 4px 8px grey;
+    width: 90%;
+    height: 3rem;
     margin-top: 1rem;
+}
+h2.restaurant-cartecomplete__starters--titre{
+    font-size: 1rem;
+    border-bottom: rgb(36, 167, 36) solid;
+    width: 3rem;
+}
+.restaurant-cartecomplete__starters--plat{
+    margin-bottom: 0.5rem;
+}
+.restaurant-cartecomplete__starters--accompagnement{
+    font-size: 0.9rem;
+}
+div.restaurant-cartecomplete__starters--prix{
+    margin-left: 20rem;
+    margin-top: -1rem;
+    font-family: 'Raleway-SemiBold';
+}
+
+/*****************/
+/** section main ****/
+.restaurant-cartecomplete__main--bulle{
+   
+    border: white solid;
+    background-color: white;
+    border-radius: 1rem 1rem 1rem 1rem;
+    box-shadow: 0 4px 8px grey;
+    width: 90%;
+    height: 3rem;
+    margin-top: 1rem;
+}
+h2.restaurant-cartecomplete__main--titre{
+    font-size: 1rem;
+    border-bottom: rgb(36, 167, 36) solid;
+    width: 3rem;
+    margin-top: 1rem;
+   
+}
+.restaurant-cartecomplete__main--plat{
+    margin-bottom: 0.5rem;
+    
+}
+.restaurant-cartecomplete__main--accompagnement{
+    font-size: 0.9rem;
+}
+div.restaurant-cartecomplete__main--prix{
+    margin-left: 20rem;
+    margin-top: -1rem;
+    font-family: 'Raleway-SemiBold';
+    
+}
+
+/*****************/
+/** section dessert ****/
+
+
+.restaurant-cartecomplete__dessert--bulle{
+   
+    border: white solid;
+    background-color: white;
+    border-radius: 1rem 1rem 1rem 1rem;
+    box-shadow: 0 4px 8px grey;
+    width: 90%;
+    height: 3rem;
+    margin-top: 1rem;
+}
+h2.restaurant-cartecomplete__dessert--titre{
+    font-size: 1rem;
+    border-bottom: rgb(36, 167, 36) solid;
+    width: 3rem;
+    margin-top: 1rem;
+}
+.restaurant-cartecomplete__dessert--plat{
+    margin-bottom: 0.5rem;
+}
+.restaurant-cartecomplete__dessert--accompagnement{
+    font-size: 0.9rem;
+}
+div.restaurant-cartecomplete__dessert--prix{
+    margin-left: 20rem;
+    margin-top: -1rem;
+    font-family: 'Raleway-SemiBold';
 }

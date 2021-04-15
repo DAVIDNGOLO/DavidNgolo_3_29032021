@@ -278,7 +278,31 @@ footer{
    
     
 }
-/*****************/
+/*****************
+keyframe
+/*************/
+@keyframes slidedown{
+    from {
+        transform: translatey(80px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.slide1{
+    animation: slidedown .5s;
+
+}
+.slide2{
+    animation: slidedown .7s;
+}
+.slide3{
+    animation: slidedown 1s;
+}
+
 /** section starter ****/
 .restaurant-cartecomplete__starters--bulle{
    
@@ -289,6 +313,7 @@ footer{
     width: 90%;
     height: 3rem;
     margin-top: 1rem;
+    an
 }
 h2.restaurant-cartecomplete__starters--titre{
     font-size: 1rem;
@@ -297,6 +322,7 @@ h2.restaurant-cartecomplete__starters--titre{
 }
 .restaurant-cartecomplete__starters--plat{
     margin-bottom: 0.5rem;
+    
 }
 .restaurant-cartecomplete__starters--accompagnement{
     font-size: 0.9rem;
@@ -318,6 +344,7 @@ div.restaurant-cartecomplete__starters--prix{
     width: 90%;
     height: 3rem;
     margin-top: 1rem;
+   
 }
 h2.restaurant-cartecomplete__main--titre{
     font-size: 1rem;
@@ -353,7 +380,9 @@ div.restaurant-cartecomplete__main--prix{
     width: 90%;
     height: 3rem;
     margin-top: 1rem;
+    
 }
+
 h2.restaurant-cartecomplete__dessert--titre{
     font-size: 1rem;
     border-bottom: rgb(36, 167, 36) solid;

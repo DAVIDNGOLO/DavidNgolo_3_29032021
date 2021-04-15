@@ -244,7 +244,7 @@ footer{
 }
 
 
-/************  Premier restaurant ********/
+/************  restaurantssssssss ********/
 
 /*****************/
 /** header ****/
@@ -267,7 +267,7 @@ footer{
 /** section restaurant ****/
 
 .restaurant-cartecomplete{
-    background-color: rgb(240, 236, 236);
+    background-color: rgb(242, 242, 242);
     border-radius: 2rem 2rem 0 0;
     width: 80%;
    
@@ -302,7 +302,9 @@ keyframe
 .slide3{
     animation: slidedown 1s;
 }
-
+.slide4{
+    animation: slidedown 1.3s;
+}
 /** section starter ****/
 .restaurant-cartecomplete__starters--bulle{
    

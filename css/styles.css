@@ -239,6 +239,7 @@ footer{
 }
 .Footer_logo{
     margin-left: 0.5rem;
+    
    
 }
 .Footer__navigation{
@@ -246,6 +247,10 @@ footer{
     margin-left: -2rem ;
     
     margin-top: 0.2rem;
+    margin-bottom: 0.3rem;
+}
+.Footer_logo--listepuce{
+    padding-bottom: 1rem;
 }
 
 
@@ -353,6 +358,7 @@ div.restaurant-cartecomplete__starters--prix{
     margin-top: 1rem;
    
 }
+
 h2.restaurant-cartecomplete__main--titre{
     font-size: 1rem;
     border-bottom: rgb(36, 167, 36) solid;

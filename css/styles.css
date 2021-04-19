@@ -233,8 +233,13 @@ footer{
    
 
 }
+.Footer_logo--title{
+   height: 1rem;
+   margin-top: 1rem;
+}
 .Footer_logo{
     margin-left: 0.5rem;
+   
 }
 .Footer__navigation{
     list-style: none;
@@ -293,17 +298,17 @@ keyframe
 }
 
 .slide1{
-    animation: slidedown .5s;
+    animation: slidedown 1.5s;
 
 }
 .slide2{
-    animation: slidedown .7s;
+    animation: slidedown 1.7s;
 }
 .slide3{
-    animation: slidedown 1s;
+    animation: slidedown 2s;
 }
 .slide4{
-    animation: slidedown 1.3s;
+    animation: slidedown 2.3s;
 }
 /** section starter ****/
 .restaurant-cartecomplete__starters--bulle{

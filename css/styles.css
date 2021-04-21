@@ -241,17 +241,35 @@ background-color: rgb(242, 242, 242) ;
     margin-top: 0.5rem;
 }
 .restaurants__logo{
-    padding-left: 60%;
+    padding-left: 50%;
     ;
     
 }
 
-.restaurants__logo.far.fa-heart:active{    
 
-    background-color: rgb(121, 67, 121);
+i.restaurant__logo.far.fa-heart{
+    margin-left: 10rem;
+    
+    border-radius: 100%;
 }
-
-
+.fas.fa-heart{
+    color: rgb(171, 84, 171);
+    margin-left:-4rem;
+    opacity: 0;
+}
+.fas.fa-heart:hover{
+    opacity: 0.5;
+}
+.fas.fa-heartbeat{
+    opacity: 0;
+    color:rgb(171, 84, 171) ;
+    margin-left: -2.5rem;
+}
+.fas.fa-heartbeat:hover{
+    opacity: 0.5;
+    color:rgb(171, 84, 171) ;
+    margin-left: -2.5rem;
+}
 /************ footer ********/
 
 footer{
@@ -283,6 +301,11 @@ footer{
     padding-top: 1rem;
     padding-left: 2rem;
 }
+a.Footer__navigation.Fontsbold{
+    color: white;
+    text-decoration: none;
+    margin-left: 0.2rem;
+}
 
 
 /************  restaurantssssssss ********/
@@ -308,6 +331,7 @@ footer{
 i.fas.fa-arrow-left.left{
     font-size: 3rem;
     padding: 1rem;
+    color: black;
 }
 /*****************/
 /** section restaurant ****/
@@ -325,14 +349,16 @@ i.fas.fa-arrow-left.left{
    padding-top: 2rem;
    padding-bottom: 1rem;
    font-size: 4rem;
+   padding-left: 2rem;
     
 }
-i.restaurant__logo.far.fa-heart{
-    margin-left: 10rem ;
-}
+
 /*****************
 keyframe
 /*************/
+
+
+
 @keyframes slidedown{
     from {
         transform: translateY(80px);
@@ -345,17 +371,17 @@ keyframe
 }
 
 .slide1{
-    animation: slidedown 3s;
+    animation: slidedown 5s;
 
 }
 .slide2{
-    animation: slidedown 4s;
+    animation: slidedown 6s;
 }
 .slide3{
-    animation: slidedown 5s;
+    animation: slidedown 7s;
 }
 .slide4{
-    animation: slidedown 6s;
+    animation: slidedown 8s;
 }
 /** section carte complet ****/
 .restaurant-cartecomplete__bulle{
@@ -368,6 +394,14 @@ keyframe
     height: 10rem;
     margin-top: 1rem;
     margin-bottom: 2rem;
+    box-shadow: inset 0 0 0 0 rgb(130, 228, 130);
+    transition: ease-in 0.3s;
+    
+    
+    
+}
+.restaurant-cartecomplete__bulle:hover{
+    box-shadow: inset 300px 0 0 0;
     
 }
 h2.restaurant-cartecomplete__titre{

@@ -2,13 +2,13 @@
     font-family: 'Raleway Light';
     font-style: normal;
     font-weight: normal;
-    src: local('Raleway Light'),url('/font/Raleway-Light.woff') format('woff');
+    src: local('Raleway Light'),url('/Raleway-Light.woff') format('woff');
     }
     @font-face {
         font-family: 'Raleway SemiBold';
         font-style: normal;
         font-weight: normal;
-        src: local('Raleway SemiBold'), url('/font/Raleway-SemiBold.woff') format('woff');
+        src: local('Raleway SemiBold'), url('/Raleway-SemiBold.woff') format('woff');
         }
 *
 {

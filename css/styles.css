@@ -504,7 +504,7 @@ keyframe
     cursor: pointer;
 
 }
-.restaurant-cartecomplete__bulle:hover::before{
+.restaurant-cartecomplete__bulle:active::before{
     width: 300px;
 
 }
@@ -633,6 +633,41 @@ div.restaurant-cartecomplete__prix{
     ul.Footer_logo--listepuce{
         flex-direction: row;
         margin-left: 3rem;
+    }
+    .restaurant-cartecomplete__bulle{
+   
+        border: white solid;
+        background-color: white;
+        border-radius: 1rem 1rem 1rem 1rem;
+        box-shadow: 0 4px 8px grey;
+        width: 97%;
+        height: 10rem;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+       transition:  linear;
+        position: relative;
+        
+        
+    }
+    
+    
+    
+    .restaurant-cartecomplete__bulle::before{
+        content: "";
+        position: absolute;
+        width: 0px;
+        height: 160px;
+        top: 0px;
+        right: 0px;
+        background-color: green;
+        z-index: -1;
+        transition: 0.5s linear;
+        cursor: pointer;
+    
+    }
+    .restaurant-cartecomplete__bulle:hover::before{
+        width: 300px;
+    
     }
 }
 

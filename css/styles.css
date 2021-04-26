@@ -10,6 +10,7 @@
         font-weight: normal;
         src: local('Raleway SemiBold'), url('/font/Raleway-SemiBold.woff') format('woff');
         }
+        
 *
 {
     font-family: 'Raleway Light';
@@ -234,7 +235,9 @@ background-color: rgb(242, 242, 242) ;
 .restaurants{
     background-color: rgb(242, 242, 242);
 }
-
+h1{
+    font-family: 'Shrikhand', cursive;
+}
 .restaurants__titre{
     
     font-size: 4rem;
@@ -269,7 +272,7 @@ background-color: rgb(242, 242, 242) ;
 
 .restaurants__card--mint{
     border: rgb(126, 179, 138);
-    background-color: rgb(172, 238, 172);
+    background-color: #99E2D0;
     color: rgb(123, 148, 72);
     width: 22%;
     height: 3rem;
@@ -632,7 +635,10 @@ div.restaurant-cartecomplete__prix{
    
     ul.Footer_logo--listepuce{
         flex-direction: row;
-        margin-left: 3rem;
+        margin-left: 4rem;
+    }
+    .Footer__navigation{
+        font-size: 3rem;
     }
     .restaurant-cartecomplete__bulle{
    

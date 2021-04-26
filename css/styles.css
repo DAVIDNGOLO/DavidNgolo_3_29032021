@@ -44,10 +44,11 @@
     margin-right: auto;
     margin-top: 2rem;
     
-   font-size: 3rem;
-   padding-top: 3rem;
+   font-size: 1rem;
+   padding-top: 1rem;
+   padding-bottom: 1.5rem;
     width: 50%;
-    height: 6rem;
+    height: 0.5rem;
     
     box-shadow: 0 4px 8px grey;
 }
@@ -329,8 +330,8 @@ h1{
 
 
 i.restaurant__logo.far.fa-heart{
-    margin-left: 10rem;
     
+    margin-left: 4rem;
     border-radius: 100%;
 }
 .fas.fa-heart{
@@ -396,21 +397,22 @@ a.Footer_mailto{
 
 .restaurant-header__logo
 {
-    
-    width: 50%;
-    margin-left: 15rem;
-    padding-top: 1rem;
+    height: 2rem;
+    width: 60%;
+    margin-top: 1rem;
+   
 }
 
 .restaurant-header__IMG--ALF
 {
-    height: 40rem;
+    height: 20rem;
     width: 100%;
     object-fit: cover;
+    
   
 }
 i.fas.fa-arrow-left.left{
-    font-size: 3rem;
+    font-size: 1rem;
     padding: 1rem;
     color: black;
 }
@@ -420,17 +422,18 @@ i.fas.fa-arrow-left.left{
 .restaurant-cartecomplete{
     background-color: rgb(242, 242, 242);
     border-radius: 5rem 5rem 0 0;
-    width: 94%;
+    width: 90%;
     margin-top: -8rem;
    position: relative;
+   margin-left: -1rem;
    z-index: 2;
    
 }
 .restaurant-cartecomplete__header{
    padding-top: 2rem;
    padding-bottom: 1rem;
-   font-size: 4rem;
-   padding-left: 2rem;
+   font-size: 1.5rem;
+   
     
 }
 
@@ -499,8 +502,8 @@ keyframe
     background-color: white;
     border-radius: 1rem 1rem 1rem 1rem;
     box-shadow: 0 4px 8px grey;
-    width: 97%;
-    height: 10rem;
+    width: 95%;
+    height: 3.5rem;
     margin-top: 1rem;
     margin-bottom: 2rem;
    transition:  linear;
@@ -531,32 +534,38 @@ keyframe
 
 
 h2.restaurant-cartecomplete__titre{
-    font-size: 3rem;
+    font-size: 1rem;
     border-bottom: rgb(36, 167, 36) solid;
     width: 10%;
-   margin-top: 3rem;
+   margin-top: 0.8rem;
 }
 .restaurant-cartecomplete__plat{
-    margin-bottom: 0.5rem;
-    padding-top: 1rem;
-    font-size: 3rem;
+    margin-bottom: 0.3rem;
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+    font-size: 0.8rem;
+    
     
 }
 .restaurant-cartecomplete__accompagnement{
-    font-size: 2.5rem;
+    font-size: 0.8rem;
+    padding-left: 0.5rem;
 }
 
 div.restaurant-cartecomplete__prix{
-    margin-left: 50rem;
+    margin-left: 17rem;
     margin-top: -1rem;
     font-family: 'Raleway SemiBold';
-    font-size: 2rem;
+    font-size: 0.8rem;
 }
 
 /* media queries desktop */
 
 @media screen and (min-width: 769px){
-    
+
+
+    /****** page d'acceuil *****/
+           /******  *****/             
     
     .Header__logo{
         justify-content: left;
@@ -712,6 +721,49 @@ div.restaurant-cartecomplete__prix{
     .restaurant-cartecomplete__bulle:hover::before{
         width: 300px;
     
+    }
+    footer{
+       width: 85%;
+    }
+     /****** Menu *****/
+           /*****/
+           .restaurant-header__logo{
+               margin-left: 10rem;
+           }    
+           .restaurant-header__IMG--ALF{
+               height: 30rem;
+           } 
+    h1.restaurant-cartecomplete__header{
+        margin-left: 26rem;
+    }  
+    h2.restaurant-cartecomplete__titre{
+        margin-left: 30rem;
+    }   
+    section.restaurants{
+        width: 100%;
+    }    
+    div.restaurant-cartecomplete__bulle{
+        width: 50%;
+        margin-left: 20rem;
+        height:5rem;
+        
+    }  
+    .restaurant-cartecomplete__plat{
+        font-size: 1.5rem;
+    }
+    .restaurant-cartecomplete__accompagnement{
+        font-size: 1.5rem;
+    }
+    div.restaurant-cartecomplete__prix{
+        margin-left: 33rem;
+        margin-top: -3rem;
+        font-size: 1.5rem;
+    }
+    .commander{
+        font-size: 2rem;
+    padding-top: 1rem;
+    width: 30%;
+    height: 3rem;
     }
     
 }

@@ -81,7 +81,7 @@
         animation: chargeur 5s linear ;
         position: absolute;
         z-index: 2;   
-        margin-top: 90rem;
+        margin-top: 70rem;
         margin-left: 35rem;
         opacity: 0;
     }
@@ -323,13 +323,13 @@ i.restaurant__logo.far.fa-heart{
 .fas.fa-heartbeat{
     opacity: 0;
     color:rgb(171, 84, 171) ;
-    margin-left: -1rem;
+    margin-left: -2.5rem;
     transition: opacity 1s;
 }
 .fas.fa-heartbeat:hover{
     opacity: 0.5;
     color:rgb(171, 84, 171) ;
-    margin-left: -1rem;
+    margin-left: -2.5rem;
 }
 /************ footer ********/
 
@@ -601,7 +601,7 @@ div.restaurant-cartecomplete__prix{
         height: 10rem;
     }
     div.restaurants__card{
-        height: 20rem;
+        height: 16rem;
 
     }
     div.restaurants__card--titre{
@@ -616,6 +616,17 @@ div.restaurant-cartecomplete__prix{
        height: 0.5rem;
        width: 5rem;
        padding-top: -1rem;
+    }
+    .fas.fa-heartbeat{
+        opacity: 0;
+        color:rgb(171, 84, 171) ;
+        margin-left: -1rem;
+        transition: opacity 1s;
+    }
+    .fas.fa-heartbeat:hover{
+        opacity: 0.5;
+        color:rgb(171, 84, 171) ;
+        margin-left: -1rem;
     }
     
    

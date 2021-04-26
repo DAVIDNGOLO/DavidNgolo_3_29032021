@@ -316,7 +316,7 @@ i.restaurant__logo.far.fa-heart{
     opacity: 0;
     
 }
-.fas.fa-heart:hover{
+.fas.fa-heart:active{
     opacity: 0.5;
     transition: opacity 1s;
 }
@@ -326,7 +326,7 @@ i.restaurant__logo.far.fa-heart{
     margin-left: -2.5rem;
     transition: opacity 1s;
 }
-.fas.fa-heartbeat:hover{
+.fas.fa-heartbeat:active{
     opacity: 0.5;
     color:rgb(171, 84, 171) ;
     margin-left: -2.5rem;
@@ -535,7 +535,7 @@ div.restaurant-cartecomplete__prix{
 
 /* media queries */
 
-@media screen and (min-width: 800px){
+@media screen and (min-width: 1000px){
     .Header__logo{
         justify-content: left;
        

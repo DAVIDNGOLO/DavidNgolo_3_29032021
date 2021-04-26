@@ -10,11 +10,12 @@ integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg
     </head>
 
     <body>
+     <div class="pagecomplete">
         <!-- section loading spinner--> 
-        <div class="loader">OH MY F<i class="fas fa-hamburger"></i><i class="fas fa-hamburger"></i>D</div>
+        <div class="loader ">OH MY F<i class="fas fa-hamburger"></i><i class="fas fa-hamburger"></i>D</div>
 
          <!-- section header--> 
-        <header class="disflexcol">
+        <header class="disflexcol inverse">
             <div class="Header__logo ">
                 <img src="images/logo/ohmyfood.png">
             </div>
@@ -39,11 +40,11 @@ integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg
 
         <!-- Section Navigation fonctionnement-->
 
-        <section class="fonctionnement padding disflexcol">
+        <section class="fonctionnement padding disflexcol inverse">
             <h2 class="fonctionnement__titre Fontsbold">
                 Fonctionnement
             </h2>
-            <ol class="fonctionnement">
+            <ol class="fonctionnement disflexcol">
                 
                 <li class="fonctionnement__Navigation--bulle Talcenter Disflexround ">
                     <div class="fonctionnement__numero Disflexround"> 1 </div>
@@ -66,11 +67,13 @@ integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg
 
         </section>
 
-        <section class="restaurants disflexcol padding">
+        <section class="restaurants disflexcol padding inverse">
             <h2 class="restaurants__titre Fontsbold">
                 Restaurants
             </h2>
+            <div class="restaurants__section">
             <div class="restaurants__card ">
+            <a href="lapalettedugout.html">
                 <div class="restaurants__card--mint Fontsbold Talcenter">Nouveau</div>
                 <div>
                   <img src="images/restaurants/palette.jpg" class="restaurants__card--image">
@@ -81,8 +84,10 @@ integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg
                 <div class="restaurants__card--soustitre padresto">
                     Ménilmontant <i class=" restaurants__logo far fa-heart "></i><i class="fas fa-heartbeat"></i>
                 </div>
+            </a>
             </div>
             <div class="restaurants__card">
+            <a href="lanoteenchantee.html">
                 <div class="restaurants__card--mint Fontsbold Talcenter">Nouveau</div>
                 <div>
                   <img src="images/restaurants/lanote.jpg" class="restaurants__card--image">
@@ -93,8 +98,10 @@ integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg
                 <div class="restaurants__card--soustitre padresto">
                     Charonne <i class=" restaurants__logo far fa-heart "></i><i class="fas fa-heartbeat"></i>
                 </div>
+            </a>    
             </div>
             <div class="restaurants__card">
+            <a href="alafrancaise.html">    
                 <div>
                   <img src="images/restaurants/palette.jpg" class="restaurants__card--image">
                 </div>
@@ -104,8 +111,10 @@ integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg
                 <div class="restaurants__card--soustitre padresto">
                     Cité Rouge <i class=" restaurants__logo far fa-heart "></i><i class="fas fa-heartbeat"></i>
                 </div>
+            </a>   
             </div>
             <div class="restaurants__card">
+            <a href="ledelicedessens.html">
                 <div>
                   <img src="images/restaurants/palette.jpg" class="restaurants__card--image">
                 </div>
@@ -115,17 +124,19 @@ integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg
                 <div class="restaurants__card--soustitre padresto">
                     Folie-Méricourt <i class=" restaurants__logo far fa-heart"></i><i class="fas fa-heartbeat"></i>
                 </div>
+             </a>   
             </div>
             
-            </div>          
+            </div> 
+           </div>         
         </section>
         
         <!-- Footer-->
-        <footer class="paddingstrong">
+        <footer class="paddingstrong inverse" >
             <div class="Footer_logo">
                 <img src="images/logo/ohmyfood@2x.svg" class="Footer_logo--title">               
             </div>
-            <ul class="Footer_logo--listepuce"> 
+            <ul class="Footer_logo--listepuce disflexcol"> 
                 <li class="Footer__navigation Fontsbold">
                     <i class="fas fa-utensils"></i>  Proposer un restaurant
                 </li>
@@ -140,5 +151,7 @@ integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg
                 </li>
             </ul>
         </footer>
+        </div>
+    </div>   
     </body>
 </html>

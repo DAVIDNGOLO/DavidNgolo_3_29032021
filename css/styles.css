@@ -71,35 +71,54 @@
 
     .loader{
         margin:auto;
-        margin-top: 100px;
-        margin-bottom: 100px;
+        
         border: 16px solid #bdc3c7;
         width: 120px;
         height: 120px;
         border-top-color: #1abc9c;
         border-bottom-color: #3498db;
         border-radius: 50%;
-        animation: chargeur 4s linear infinite;
-        display: none;
+        animation: chargeur 5s linear ;
+        position: absolute;
+        z-index: 2;   
+        margin-top: 90rem;
+        margin-left: 35rem;
+        opacity: 0;
     }
     @keyframes chargeur {
         0%{
             transform: rotate(0deg) scale(1);
             border-top-color: red;
             border-bottom-color:red ;
+            opacity: 1;
         }
         25%{
             border-top-color: blue;
             border-bottom-color: blue;
+            opacity: 1;
         }
         50%{
-            transform: rotate(360deg) scale(2.30);
+            transform: rotate(360deg) scale(3);
             border-top-color: red;
             border-bottom-color:red ;
+            opacity: 1;
         }
+        90%{
+            opacity: 0;
+        }
+        100%{
+            display: none;
+        }
+    
+
         
     }
-/*******************/
+/***********
+page complete ********/
+.pagecomplete{
+    position: relative;
+    z-index: 1;
+}
 /*******************/
     /* Head */
 /*******************/
@@ -192,6 +211,7 @@ background-color: rgb(242, 242, 242) ;
 .fonctionnement__Navigation--bulle:hover
 {
     background-color:#c6b9d6 ;
+    box-shadow: 0 4px 10px black;
     
 }
 .fonctionnement__numero{
@@ -231,6 +251,10 @@ background-color: rgb(242, 242, 242) ;
     margin-bottom: 3rem;
     width: 95%;
     height: 40rem;
+}
+.restaurants__card a{
+    text-decoration: none;
+    color: black;
 }
 
 
@@ -290,14 +314,17 @@ i.restaurant__logo.far.fa-heart{
     color: rgb(171, 84, 171);
     margin-left:-4rem;
     opacity: 0;
+    
 }
 .fas.fa-heart:hover{
     opacity: 0.5;
+    transition: opacity 1s;
 }
 .fas.fa-heartbeat{
     opacity: 0;
     color:rgb(171, 84, 171) ;
     margin-left: -2.5rem;
+    transition: opacity 1s;
 }
 .fas.fa-heartbeat:hover{
     opacity: 0.5;
@@ -403,6 +430,33 @@ keyframe
         opacity: 1;
     }
 }
+@keyframes inverseopacity{
+    0% {
+        
+        opacity: 0;
+    }
+    20% {
+        
+        opacity: 0;
+    }
+    40% {
+        
+        opacity: 0;
+    }
+    80% {
+        
+        opacity: 0;
+    }
+   
+   
+    100%
+    {
+        opacity: 1;
+    }
+}
+.inverse{
+    animation: inverseopacity 5s;
+}
 
 .slide1{
     animation: slidedown 5s;
@@ -418,6 +472,7 @@ keyframe
     animation: slidedown 8s;
 }
 /** section carte complet ****/
+
 .restaurant-cartecomplete__bulle{
    
     border: white solid;
@@ -428,16 +483,14 @@ keyframe
     height: 10rem;
     margin-top: 1rem;
     margin-bottom: 2rem;
-   transition: 4s linear;
+   transition:  linear;
     position: relative;
     
     
 }
 
-.restaurant-cartecomplete__bulle:hover{
-   color: white;
-  
-}
+
+
 .restaurant-cartecomplete__bulle::before{
     content: "";
     position: absolute;
@@ -452,7 +505,7 @@ keyframe
 
 }
 .restaurant-cartecomplete__bulle:hover::before{
-    width: 400px;
+    width: 300px;
 
 }
 
@@ -472,10 +525,105 @@ h2.restaurant-cartecomplete__titre{
 .restaurant-cartecomplete__accompagnement{
     font-size: 2.5rem;
 }
+
 div.restaurant-cartecomplete__prix{
     margin-left: 50rem;
     margin-top: -1rem;
     font-family: 'Raleway SemiBold';
     font-size: 2rem;
 }
+
+/* media queries */
+
+@media screen and (min-width: 800px){
+    .Header__logo{
+        justify-content: left;
+       
+    }
+    .header__input input{
+        width: 50%;
+        background-color: #ba55d3b0;
+        
+    }
+    input {
+        margin-left: 40rem;
+    margin-bottom: -8rem;
+    margin-top: -8rem;
+    position: absolute;
+    font-size: 1rem;
+    
+    
+    }
+    i.fas.fa-map-marker-alt{
+        margin-top: -5rem;
+        margin-left: 50rem;
+        position: absolute;
+        z-index: 1;
+        
+        
+    }
+    .Header__acceuil {
+        margin-top: -2rem;
+    }
+    ol.fonctionnement {
+        flex-direction: row;
+        margin-left: -3rem;
+       
+    }
+    li.fonctionnement__Navigation--bulle{
+        margin-left: 2rem;
+        font-size: 1rem;
+        height: 5rem;
+        padding-left: 6rem;
+        width: 22%;
+    }
+    .fonctionnement__Navigation--text{
+       margin-left: 2rem;
+    }
+    .fonctionnement__Navigation .fas.fa-hamburger{
+        margin-left: 1rem;
+    }
+    .fas.fa-list-ul{
+        margin-left: 1rem;
+    }
+    .fas.fa-mobile-alt{
+        margin-left: 1rem;
+    }
+    .fonctionnement__numero{
+        display: none;
+    }
+    .restaurants__section{
+        display: flex;
+        flex-direction: row;
+        
+    }
+    img.restaurants__card--image{
+        height: 10rem;
+    }
+    div.restaurants__card{
+        height: 20rem;
+
+    }
+    div.restaurants__card--titre{
+        font-size: 1rem;
+    }
+    div.restaurants__card--soustitre{
+        font-size: 1rem;
+    }
+    .restaurants__card--mint{
+       margin-left: 13rem;
+       font-size: 1rem;
+       height: 0.5rem;
+       width: 5rem;
+       padding-top: -1rem;
+    }
+    
+   
+    ul.Footer_logo--listepuce{
+        flex-direction: row;
+        margin-left: 3rem;
+    }
+}
+
+
 

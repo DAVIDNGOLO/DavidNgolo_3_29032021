@@ -153,7 +153,8 @@ header{
     padding-top: -6rem;
     border: none;
     font-size: 1.3rem;
-    position: relative;
+    position: absolute;
+    z-index: 2;
 }
 .Header__titre--first{
     font-size:1.5rem ;
@@ -543,29 +544,43 @@ div.restaurant-cartecomplete__prix{
     
     .Header__logo{
         justify-content: left;
+        position: relative;
+        margin-top: 2rem;
        
+       
+    }
+    .Header__logo img{
+        height: 3rem;
+        margin-top: -2rem;
     }
     .header__input input{
         width: 50%;
         background-color: #ba55d3b0;
-        
+        height: 3rem;
     }
     input {
         margin-left: 40rem;
-    margin-bottom: -8rem;
-    margin-top: -8rem;
+    
+    margin-top: -5rem;
     position: absolute;
     font-size: 1rem;
+    z-index: 3;
     
     
     }
     i.fas.fa-map-marker-alt{
-        margin-top: -5rem;
+        margin-top: -4rem;
         margin-left: 50rem;
         position: absolute;
-        z-index: 1;
+        z-index: 4;
         
         
+    }
+    .Header__exploration{
+
+        
+        width: 30%;
+       
     }
     .Header__acceuil {
         margin-top: -2rem;

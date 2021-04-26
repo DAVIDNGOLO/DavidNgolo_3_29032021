@@ -535,7 +535,7 @@ div.restaurant-cartecomplete__prix{
 
 /* media queries */
 
-@media screen and (min-width: 800px){
+@media screen and (min-width: 1000px){
     .Header__logo{
         justify-content: left;
        

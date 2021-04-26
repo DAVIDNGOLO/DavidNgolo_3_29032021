@@ -131,44 +131,47 @@ header{
     width: 100%;
     display: flex;
     justify-content: center;
-    height: 4rem;
+    height: 2rem;
     margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     
     
 }
 .fa-map-marker-alt
 {
    position: absolute;
-    margin-top: 2.5rem;
-    margin-left: 22rem;
+    margin-top: 1.5rem;
+    margin-left: 5rem;
+    z-index: 1;
 }
 .header__input input{
 
     width: 100%;
     
     background-color: rgb(228, 224, 224);
-    height: 6rem;
+    height: 4rem;
+    padding-top: -6rem;
     border: none;
     font-size: 1.3rem;
+    position: relative;
 }
 .Header__titre--first{
-    font-size:4rem ;
-    padding-top: 6rem;
+    font-size:1.5rem ;
+    padding-top: 2.5rem;
 }
 .Header__acceuil{
 
     
     background-color: rgb(242, 242, 242);
-    height: 30rem;
-    margin-bottom: 5rem;
+    height: 8rem;  
     margin-top: -1.5rem;
     padding-bottom: 10rem;
     
 
 }
 .Header__soustitre{
-    font-size: 3rem;
+    padding-top: 1rem;
+    font-size: 1rem;
 }
 .Header__exploration{
 
@@ -178,10 +181,10 @@ header{
     border-radius: 3rem;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 4rem;
-    font-size: 2rem;
-    width: 50%;
-    height: 5rem;
+    margin-top: 2rem;
+    font-size: 1rem;
+    width: 65%;
+    height: 2rem;
     padding: 0.5rem;
     box-shadow: 0 4px 8px grey;
   
@@ -192,21 +195,21 @@ header{
 
 .fonctionnement__titre{
     
-    font-size: 4rem;
+    font-size: 2rem;
     padding-bottom: 3rem;
 }
 .fonctionnement__Navigation--bulle{
 
 background-color: rgb(242, 242, 242) ;
-    border-radius: 2rem;
+    border-radius: 10px;
     margin-bottom: 3rem;
-    height: 10rem;
+    height: 4rem;
     width: 98%;
 
     
     box-shadow: 0 4px 8px grey;
     
-    font-size: 2.5rem;    
+    font-size: 1rem;    
    
 }
 .fonctionnement__Navigation--bulle:hover
@@ -217,17 +220,18 @@ background-color: rgb(242, 242, 242) ;
 }
 .fonctionnement__numero{
     
-    border-radius: 20px;
+    
     background-color: #906ebd;
-   margin-left: -4rem;
     width: 40px;
     height: 40px;
-    
+    border-radius: 20px;
+   
+    margin-left: -2rem;
     
     color: white;
 }
 .fonctionnement__Navigation--text{
-    padding-right: 13rem;
+    
     
 }
 
@@ -240,7 +244,7 @@ h1{
 }
 .restaurants__titre{
     
-    font-size: 4rem;
+    font-size: 1.5rem;
     margin-bottom: 2rem;
     
 }
@@ -253,7 +257,7 @@ h1{
     padding: 2px;
     margin-bottom: 3rem;
     width: 95%;
-    height: 40rem;
+    height: 15rem;
 }
 .restaurants__card a{
     text-decoration: none;
@@ -263,7 +267,7 @@ h1{
 
 .restaurants__card--image{
 
-    height: 30rem;
+    height: 10rem;
    
     width: 100%;
     object-fit: cover;
@@ -275,13 +279,12 @@ h1{
     background-color: #99E2D0;
     color: rgb(123, 148, 72);
     width: 22%;
-    height: 3rem;
-    font-size: 2.5rem;
+    height: 0.1rem;
+    font-size: 0.8rem;
     
-    padding: 1rem;
-    
+    padding: 1rem; 
     border-radius: 1px 1px 1px 1px;
-    margin-left: 60%; 
+    margin-left: 45%; 
     
     margin-top: 1rem;
    position: absolute;
@@ -293,13 +296,13 @@ h1{
 .restaurants__card--titre{
     
    padding-top: 1rem;
-   font-size: 3rem;
+   font-size: 1rem;
    
 }
 .restaurants__card--soustitre{
     
-    font-size: 2.5rem;
-    margin-top: 0.5rem;
+    font-size: 1rem;
+    margin-top: -0.5rem;
 }
 .restaurants__logo{
     padding-left: 50%;
@@ -339,32 +342,29 @@ i.restaurant__logo.far.fa-heart{
 footer{
     background-color: rgb(67, 63, 63);
     color: white;
-    font-size: 1.4rem;
-    height: 25rem;
+    font-size: 0.5rem;
+    
    
 
 }
 .Footer_logo--title{
-   height: 3rem;
-   margin-top: 1rem;
+   height: 1.5rem;
+   
+   margin-left: -1.9rem;
 }
 .Footer_logo{
-    margin-left: 0.5rem;
+    
     
    filter: invert(100%);
 }
 .Footer__navigation{
     list-style: none;
     margin-left: -2rem ;
-    font-size: 2.5rem; 
+    font-size: 1rem; 
     margin-top: 1rem;
     margin-bottom: 0.3rem;
 }
-.Footer_logo--listepuce{
-    padding-bottom: 1rem;
-    padding-top: 1rem;
-    padding-left: 2rem;
-}
+
 a.Footer_mailto{
     color: white;
     text-decoration: none;
@@ -372,7 +372,7 @@ a.Footer_mailto{
 }
 
 
-/************  restaurantssssssss ********/
+/************  restaurants ********/
 
 /*****************/
 /** header ****/
@@ -536,9 +536,11 @@ div.restaurant-cartecomplete__prix{
     font-size: 2rem;
 }
 
-/* media queries */
+/* media queries desktop */
 
-@media screen and (min-width: 1000px){
+@media screen and (min-width: 769px){
+    
+    
     .Header__logo{
         justify-content: left;
        
@@ -568,11 +570,13 @@ div.restaurant-cartecomplete__prix{
     .Header__acceuil {
         margin-top: -2rem;
     }
+    
     ol.fonctionnement {
         flex-direction: row;
         margin-left: -3rem;
        
     }
+     
     li.fonctionnement__Navigation--bulle{
         margin-left: 2rem;
         font-size: 1rem;
@@ -635,11 +639,11 @@ div.restaurant-cartecomplete__prix{
    
     ul.Footer_logo--listepuce{
         flex-direction: row;
-        margin-left: 4rem;
+        padding-top: 2.5rem;
+        justify-content: space-between;
     }
-    .Footer__navigation{
-        font-size: 3rem;
-    }
+   
+   
     .restaurant-cartecomplete__bulle{
    
         border: white solid;
@@ -675,7 +679,5 @@ div.restaurant-cartecomplete__prix{
         width: 300px;
     
     }
+    
 }
-
-
-

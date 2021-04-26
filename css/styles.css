@@ -10,9 +10,10 @@
         font-weight: normal;
         src: local('Raleway SemiBold'), url('../font/Raleway-SemiBold.woff') format('woff');
         }
-        
+
 *
 {
+   
     font-family: 'Raleway Light';
     padding: 0;
     margin: 0;
@@ -119,6 +120,8 @@ page complete ********/
 .pagecomplete{
     position: relative;
     z-index: 1;
+    width: 100%;
+    
 }
 /*******************/
     /* Head */
@@ -126,6 +129,8 @@ page complete ********/
 header{
     margin-bottom:1rem;
     width: 100%;
+    
+    
 }
 .Header__logo{
     width: 100%;
@@ -143,18 +148,19 @@ header{
     margin-top: 1.5rem;
     margin-left: 5rem;
     z-index: 1;
+    
 }
 .header__input input{
 
     width: 100%;
     
     background-color: rgb(228, 224, 224);
-    height: 4rem;
+    height: 5rem;
     padding-top: -6rem;
     border: none;
     font-size: 1.3rem;
-    position: absolute;
-    z-index: 2;
+    
+    
 }
 .Header__titre--first{
     font-size:1.5rem ;
@@ -231,13 +237,23 @@ background-color: rgb(242, 242, 242) ;
     
     color: white;
 }
-.fonctionnement__Navigation--text{
-    
-    
+.fas.fa-hamburger{
+   
+    color: grey;
 }
+.fas.fa-list-ul{
+    
+    color: grey;
+}
+.fas.fa-mobile-alt{
+    
+    color: grey;
+}
+
 
 /************ section 2 Restaurants ********/
 .restaurants{
+   
     background-color: rgb(242, 242, 242);
 }
 h1{
@@ -600,16 +616,19 @@ div.restaurant-cartecomplete__prix{
         width: 22%;
     }
     .fonctionnement__Navigation--text{
-       margin-left: 2rem;
+       margin-left: -2rem;
     }
-    .fonctionnement__Navigation .fas.fa-hamburger{
-        margin-left: 1rem;
+    .fas.fa-hamburger{
+        margin-left: -7rem;
+        color: grey;
     }
     .fas.fa-list-ul{
-        margin-left: 1rem;
+        margin-left: -7rem;
+        color: grey;
     }
     .fas.fa-mobile-alt{
-        margin-left: 1rem;
+        margin-left: -7rem;
+        color: grey;
     }
     .fonctionnement__numero{
         display: none;

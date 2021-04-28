@@ -366,13 +366,13 @@ i.restaurant__logo.far.fa-heart{
 .fas.fa-heartbeat{
     opacity: 0;
     color:rgb(171, 84, 171) ;
-    margin-left: -2.5rem;
+    margin-left: -1rem;
     transition: opacity 1s;
 }
 .fas.fa-heartbeat:hover{
     opacity: 0.5;
     color:rgb(171, 84, 171) ;
-    margin-left: -2.5rem;
+    margin-left: -1rem;
 }
 /************ footer ********/
 

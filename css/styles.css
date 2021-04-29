@@ -572,10 +572,23 @@ div.restaurant-cartecomplete__prix{
     opacity: 0;
     margin-top: 0rem;
     margin-left: 19.5rem;
-    
    
+    
 }
-
+.restaurant-cartecomplete--validation:hover{
+    animation: left 1s ; 
+}
+@keyframes left{
+    0% {
+       padding-right: 1rem;
+       
+    }
+    
+    100%{
+        padding-right: 5rem;
+        
+    }
+}
 .restaurant-cartecomplete--validcircle{
     background-color: white;
     color: lightgreen;

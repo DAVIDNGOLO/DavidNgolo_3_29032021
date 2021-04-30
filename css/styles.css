@@ -88,53 +88,7 @@
         margin-left: 40rem;
         opacity: 0;
     }
-    @keyframes chargeur {
-        0%{
-            transform: rotate(0deg) scale(1);
-            border-top-color: #9356DC ;
-            border-bottom-color:#9356DC  ;
-            opacity: 1;
-        }
-        25%{
-            border-top-color: #FF79DA ;
-            border-bottom-color: #FF79DA ;
-            opacity: 1;
-        }
-        50%{
-            transform: rotate(360deg) scale(3);
-            border-top-color: #99E2D0;
-            border-bottom-color:#99E2D0 ;
-            opacity: 1;
-        }
-        70%{
-            transform: rotate(400deg) scale(3.5);
-            border-top-color: #FF79DA;
-            border-bottom-color:#FF79DA ;
-            opacity: 1;
-        }
-        90%{
-            border-left-color: #FF79DA;
-            border-right-color: #FF79DA ;
-            opacity: 0;
-        }
-        100%{
-            display: none;
-        }
-    
 
-        
-    }
-    @keyframes rotate {
-        0%{
-            transform: rotate(0deg);
-        }
-        50%{
-            transform: rotate(120deg);
-        }
-        100%{
-            transform:rotate(360deg);
-        }
-    }
 /***********
 page complete ********/
 .pagecomplete{
@@ -457,9 +411,70 @@ i.fas.fa-arrow-left.left{
 }
 
 /*****************
-keyframe
+keyframes
 /*************/
 
+@keyframes chargeur {
+    0%{
+        transform: rotate(0deg) scale(1);
+        border-top-color: #9356DC ;
+        border-bottom-color:#9356DC  ;
+        opacity: 1;
+    }
+    25%{
+        border-top-color: #FF79DA ;
+        border-bottom-color: #FF79DA ;
+        opacity: 1;
+    }
+    50%{
+        transform: rotate(360deg) scale(3);
+        border-top-color: #99E2D0;
+        border-bottom-color:#99E2D0 ;
+        opacity: 1;
+    }
+    70%{
+        transform: rotate(400deg) scale(3.5);
+        border-top-color: #FF79DA;
+        border-bottom-color:#FF79DA ;
+        opacity: 1;
+    }
+    90%{
+        border-left-color: #FF79DA;
+        border-right-color: #FF79DA ;
+        opacity: 0;
+    }
+    100%{
+        display: none;
+    }
+
+
+    
+}
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(120deg);
+    }
+    100%{
+        transform:rotate(360deg);
+    }
+}
+
+@keyframes left{
+    0% {
+       margin-left: 40rem;
+      
+       
+    }
+    
+    100%{
+        margin-left: 33rem;
+        
+        
+    }
+}
 
 
 @keyframes slidedown{
@@ -565,46 +580,46 @@ div.restaurant-cartecomplete__prix{
 }
 .restaurant-cartecomplete--validation{
     background-color: lightgreen;
-    border-radius: 1rem 1rem 1rem 1rem;
-    height: 3.5rem;
+    border-radius: 0 1rem 1rem 0;
+    height: 4rem;
+    width: 5rem;
     position: absolute;
     z-index: 4;
     opacity: 0;
-    margin-top: 0rem;
-    margin-left: 19.5rem;
+    margin-top: 0;
+    margin-left: 17rem;
+    
    
-    
 }
+
 .restaurant-cartecomplete--validation:hover{
-    animation: left 1s ; 
-}
-@keyframes left{
-    0% {
-       padding-right: 1rem;
-       
-    }
+    background-color: lightgreen;
+    border-radius: 0 1rem 1rem 0;
+    height: 4rem;
+    width: 5rem;
+    position: absolute;
+    z-index: 4;
+    opacity: 1;
+    margin-top: 0;
+    animation: left 2s;
     
-    100%{
-        padding-right: 5rem;
-        
-    }
+   
 }
+
 .restaurant-cartecomplete--validcircle{
-    background-color: white;
-    color: lightgreen;
-    border-radius: 1rem 1rem 1rem 1rem;
+   
+    color: white;
+    
+   
     margin-top: 1rem;
     
 }
 .restaurant-cartecomplete--validcircle:hover{
     animation: rotate 1s linear;
 }
-/*
-.restaurant-cartecomplete--validation:hover{
 
-opacity: 1;
-}
-*/
+
+
 
 /* media queries desktop */
 
@@ -788,35 +803,6 @@ opacity: 1;
         margin-left: 33rem;
         margin-top: -3rem;
         font-size: 1.5rem;
-    }
-    .restaurant-cartecomplete--validation{
-        background-color: lightgreen;
-        border-radius: 1rem 1rem 1rem 1rem;
-        height: 5rem;
-        position: absolute;
-        z-index: 4;
-        opacity: 0;
-        margin-top: 0;
-        margin-left: 40rem;
-        
-       
-    }
-    .restaurant-cartecomplete--validation:hover{
-        background-color: lightgreen;
-        border-radius: 1rem 1rem 1rem 1rem;
-        height: 5rem;
-        position: absolute;
-        z-index: 4;
-        opacity: 1;
-        margin-top: 0rem;
-        margin-left: 40rem;
-        
-       
-    }
-    .restaurant-cartecomplete--validcircle{
-        
-        margin-top: 2rem;
-        
     }
     
     .commander{

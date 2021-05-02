@@ -454,9 +454,7 @@ keyframes
     0%{
         transform: rotate(0deg);
     }
-    50%{
-        transform: rotate(120deg);
-    }
+    
     100%{
         transform:rotate(360deg);
     }
@@ -464,16 +462,30 @@ keyframes
 
 @keyframes left{
     0% {
-       margin-left: 40rem;
+       margin-left: 19rem;
       
        
     }
     
     100%{
-        margin-left: 33rem;
+        margin-left: 15.5rem;
         
         
     }
+}
+@keyframes leftresponsive{
+    0% {
+        margin-left: 34rem;
+       
+        
+     }
+     
+     100%{
+         margin-left: 31rem;
+         
+         
+     }
+    
 }
 
 
@@ -579,28 +591,29 @@ div.restaurant-cartecomplete__prix{
     
 }
 .restaurant-cartecomplete--validation{
-    background-color: lightgreen;
+    background-color: #99E2D0;
+    
     border-radius: 0 1rem 1rem 0;
-    height: 4rem;
-    width: 5rem;
+    height: 3.9rem;
+    width: 4.8rem;
     position: absolute;
     z-index: 4;
     opacity: 0;
-    margin-top: 0;
+    margin-top: -0.2rem;
     margin-left: 17rem;
     
    
 }
 
 .restaurant-cartecomplete--validation:hover{
-    background-color: lightgreen;
+    background-color: #99E2D0;
     border-radius: 0 1rem 1rem 0;
-    height: 4rem;
-    width: 5rem;
+    height: 3.9rem;
+    width: 4.8rem;
     position: absolute;
     z-index: 4;
     opacity: 1;
-    margin-top: 0;
+    margin-top: -0.2rem;
     animation: left 2s;
     
    
@@ -608,13 +621,12 @@ div.restaurant-cartecomplete__prix{
 
 .restaurant-cartecomplete--validcircle{
    
-    color: white;
-    
-   
-    margin-top: 1rem;
+   color: white;
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
     
 }
-.restaurant-cartecomplete--validcircle:hover{
+.fa-check-circle:hover{
     animation: rotate 1s linear;
 }
 
@@ -803,6 +815,25 @@ div.restaurant-cartecomplete__prix{
         margin-left: 33rem;
         margin-top: -3rem;
         font-size: 1.5rem;
+    }
+    .restaurant-cartecomplete--validation{
+        background-color: lightgreen;
+    border-radius: 0 1rem 1rem 0;
+    height: 5.2rem;
+    width: 5rem;
+    position: absolute;
+    z-index: 4;
+    opacity: 0;
+    margin-top: -0.1rem;
+    margin-left: 34rem;
+        
+       
+    }
+    
+    .restaurant-cartecomplete--validation:hover{
+        opacity: 1;
+        animation: leftresponsive 2s;
+       
     }
     
     .commander{

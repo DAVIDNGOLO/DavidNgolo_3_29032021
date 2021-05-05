@@ -73,7 +73,7 @@
 
 
     .loader{
-        margin:auto;
+        margin-left: 7rem;
         
         border: 16px solid #bdc3c7;
         width: 120px;
@@ -85,7 +85,7 @@
         position: absolute;
         z-index: 2;   
         margin-top: 30rem;
-        margin-left: 40rem;
+        
         opacity: 0;
     }
 
@@ -119,8 +119,8 @@ header{
 .fa-map-marker-alt
 {
    position: absolute;
-    margin-top: 1.5rem;
-    margin-left: 5rem;
+   margin-top: 1.9rem;
+   margin-left: 5rem;
     z-index: 1;
     
 }
@@ -427,13 +427,13 @@ keyframes
         opacity: 1;
     }
     50%{
-        transform: rotate(360deg) scale(3);
+        transform: rotate(360deg) scale(2);
         border-top-color: #99E2D0;
         border-bottom-color:#99E2D0 ;
         opacity: 1;
     }
     70%{
-        transform: rotate(400deg) scale(3.5);
+        transform: rotate(400deg) scale(2.5);
         border-top-color: #FF79DA;
         border-bottom-color:#FF79DA ;
         opacity: 1;
@@ -462,31 +462,18 @@ keyframes
 
 @keyframes left{
     0% {
-       margin-left: 19rem;
+       margin-left: 2rem;
       
        
     }
     
     100%{
-        margin-left: 15.5rem;
+        margin-left: -1rem;
         
         
     }
 }
-@keyframes leftresponsive{
-    0% {
-        margin-left: 39rem;
-       
-        
-     }
-     
-     100%{
-         margin-left: 35rem;
-         
-         
-     }
-    
-}
+
 
 
 @keyframes slidedown{
@@ -588,46 +575,31 @@ div.restaurant-cartecomplete__prix{
     margin-top: -1rem;
     font-family: 'Raleway SemiBold';
     font-size: 0.8rem;
-    
+  
 }
-.restaurant-cartecomplete--validation{
-    background-color: #99E2D0;
+
+
+
+i.fas.fa-check-circle{
     
-    border-radius: 0 1rem 1rem 0;
-    height: 3.9rem;
-    width: 4.8rem;
-    position: absolute;
-    z-index: 4;
     opacity: 0;
-    margin-top: -0.2rem;
-    margin-left: 17rem;
     
-   
-}
-
-.restaurant-cartecomplete--validation:hover{
     background-color: #99E2D0;
-    border-radius: 0 1rem 1rem 0;
-    height: 3.9rem;
-    width: 4.8rem;
-    position: absolute;
-    z-index: 4;
-    opacity: 1;
-    margin-top: -0.2rem;
-    animation: left 2s;
-    
+    color: white;
+    height: 3rem;
+    width: 3rem;
+    align-items: center;
+    margin-top: -2rem;
    
-}
+    margin-left: -1rem;
+    padding-top: 1rem;
 
-.restaurant-cartecomplete--validcircle{
-   
-   color: white;
-    margin-top: 1.5rem;
-    margin-left: 1.5rem;
     
+    border-radius: 0 1rem 1rem 0;
 }
-.fa-check-circle:hover{
-    animation: rotate 1s linear;
+i.fas.fa-check-circle:hover{
+    animation: left 2s;
+    opacity: 1;
 }
 
 
@@ -639,7 +611,11 @@ div.restaurant-cartecomplete__prix{
 
 
     /****** page d'acceuil *****/
-           /******  *****/             
+           /******  *****/   
+           
+           .loader{
+               margin-left: 35rem;
+           }
     
     .Header__logo{
         justify-content: left;
@@ -653,12 +629,12 @@ div.restaurant-cartecomplete__prix{
         margin-top: -2rem;
     }
     .header__input input{
-        width: 50%;
+        width: 35%;
         background-color: #ba55d3b0;
         height: 3rem;
     }
     input {
-        margin-left: 40rem;
+        margin-left: 32rem;
     
     margin-top: -5rem;
     position: absolute;
@@ -669,7 +645,7 @@ div.restaurant-cartecomplete__prix{
     }
     i.fas.fa-map-marker-alt{
         margin-top: -4rem;
-        margin-left: 50rem;
+        margin-left: 40rem;
         position: absolute;
         z-index: 4;
         
@@ -702,19 +678,19 @@ div.restaurant-cartecomplete__prix{
        margin-left: -2rem;
     }
     .fas.fa-hamburger{
-        margin-left: -7rem;
+        margin-left: -3rem;
         color: grey;
     }
     .fas.fa-list-ul{
-        margin-left: -7rem;
+        margin-left: -3rem;
         color: grey;
     }
     .fas.fa-mobile-alt{
-        margin-left: -7rem;
+        margin-left: -3rem;
         color: grey;
     }
     .fonctionnement__numero{
-        display: none;
+       margin-left: -10rem;
     }
     .restaurants__section{
         display: flex;
@@ -779,9 +755,7 @@ div.restaurant-cartecomplete__prix{
     
     
     
-    footer{
-       width: 90%;
-    }
+
      /****** Menu *****/
            /*****/
            .restaurant-header__logo{
@@ -816,41 +790,21 @@ div.restaurant-cartecomplete__prix{
         margin-top: -3rem;
         font-size: 1.5rem;
     }
-    .restaurant-cartecomplete--validation{
-        background-color: #99E2D0;
-    border-radius: 0 1rem 1rem 0;
-    height: 5.5rem;
-    width: 5.7rem;
-    position: absolute;
-    z-index: 4;
-    opacity: 0;
-    margin-top: -0.2rem;
-    margin-left: 39rem;
+    i.fas.fa-check-circle{
+    
         
+        height: 7rem;
+        width: 7rem;
        
-    }
-   
-    .restaurant-cartecomplete--validation:hover{
-        background-color: #99E2D0;
+    
+        
         border-radius: 0 1rem 1rem 0;
-        height: 5.5rem;
-        width: 5.7rem;
-        position: absolute;
-        z-index: 4;
-        opacity: 1;
-        margin-top: -0.2rem;
-        animation: leftresponsive 2s;  
     }
-    .restaurant-cartecomplete--validcircle{
-   
-        color: white;
-        margin-top: 2.3rem;
-        margin-left: 2rem;
-         
-     }
-     .fa-check-circle:hover{
-         animation: rotate 1s linear;
-     }
+    i.fas.fa-check-circle:hover{
+        animation: left ease-out 2s;
+        opacity: 1;
+    }
+    
     
     .commander{
         font-size: 2rem;

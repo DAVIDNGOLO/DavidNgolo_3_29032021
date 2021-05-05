@@ -38,7 +38,7 @@
 
 .commander{
     color: white;
-    background-color: #ba55d3b0;
+    background: linear-gradient(to bottom right, #FF79DA, #9356DC);
     border-radius: 4rem;
     margin-left: auto;
     margin-right: auto;
@@ -158,7 +158,7 @@ header{
 
     position: relative;
     color: white;
-    background-color: #ba55d3b0;
+    background: linear-gradient(to bottom right, #FF79DA, #9356DC);
     border-radius: 3rem;
     margin-left: auto;
     margin-right: auto;
@@ -462,13 +462,26 @@ keyframes
 
 @keyframes left{
     0% {
-       margin-left: 2rem;
+      margin-left: 18rem;
       
        
     }
     
     100%{
-        margin-left: -1rem;
+        margin-left: 13rem;
+        
+        
+    }
+}
+@keyframes leftresponsive{
+    0% {
+       margin-left: 16rem;
+      
+       
+    }
+    
+    100%{
+        margin-left: 13rem;
         
         
     }
@@ -539,10 +552,7 @@ keyframes
     height: 3.5rem;
     margin-top: 1rem;
     margin-bottom: 2rem;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow:ellipsis;
-    
+   
 }
 
 
@@ -567,40 +577,61 @@ h2.restaurant-cartecomplete__titre{
 .restaurant-cartecomplete__accompagnement{
     font-size: 0.8rem;
     padding-left: 0.5rem;
-    
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+    width: 220px;
 }
 
 div.restaurant-cartecomplete__prix{
-    margin-left: 17rem;
-    margin-top: -1rem;
+    
+   margin-top: 1.5rem;
     font-family: 'Raleway SemiBold';
     font-size: 0.8rem;
   
 }
 
-
-
-i.fas.fa-check-circle{
-    
-    opacity: 0;
-    
-    background-color: #99E2D0;
-    color: white;
-    height: 3rem;
-    width: 3rem;
-    align-items: center;
-    margin-top: -2rem;
+.restaurant-cartecomplete__validationprix{
    
-    margin-left: -1rem;
-    padding-top: 1rem;
-
+    display: flex;
+    flex-direction: row;
+    margin-left: 16rem;   
+    margin-top: -3rem;
+   
     
-    border-radius: 0 1rem 1rem 0;
 }
-i.fas.fa-check-circle:hover{
-    animation: left 2s;
+.restaurant-cartecomplete__validationprix:hover{
+    
+    animation: left 1s;
+}
+
+div.restaurant-cartecomplete__check{
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-color: #99e2d0;
+    color: #fff;
+    border-radius: 0px 20px 20px 0px;
+    position: relative;
+    display: block;
+   
+}
+div.restaurant-cartecomplete__check:hover{
     opacity: 1;
 }
+i.fas.fa-check-circle{
+    margin-top: 1.5rem;
+}
+
+i.fas.fa-check-circle:hover{
+
+  animation: rotate 2s;
+}
+
+
+
+
 
 
 
@@ -784,26 +815,11 @@ i.fas.fa-check-circle:hover{
     }
     .restaurant-cartecomplete__accompagnement{
         font-size: 1.5rem;
-    }
-    div.restaurant-cartecomplete__prix{
-        margin-left: 33rem;
-        margin-top: -3rem;
-        font-size: 1.5rem;
-    }
-    i.fas.fa-check-circle{
-    
+        width: 480px;
         
-        height: 7rem;
-        width: 7rem;
-       
-    
-        
-        border-radius: 0 1rem 1rem 0;
     }
-    i.fas.fa-check-circle:hover{
-        animation: left ease-out 2s;
-        opacity: 1;
-    }
+   
+
     
     
     .commander{

@@ -462,13 +462,13 @@ keyframes
 
 @keyframes left{
     0% {
-      margin-left: 18rem;
+      margin-left: 8rem;
       
        
     }
     
     100%{
-        margin-left: 13rem;
+        margin-left: -2rem;
         
         
     }
@@ -552,10 +552,21 @@ keyframes
     height: 3.5rem;
     margin-top: 1rem;
     margin-bottom: 2rem;
+    cursor: pointer;
+    display: flex;
+    
    
 }
+.restaurant-cartecomplete__fullmenu:hover + div.restaurant-cartecomplete__check{
+    opacity: 1;
+    animation: left 1s ;
+    
+}
+i.fas.fa-check-circle{
 
-
+    animation: rotate 2s infinite;
+  }
+  
 
 
 
@@ -594,19 +605,7 @@ div.restaurant-cartecomplete__prix{
     display: flex;
 }
 
-.restaurant-cartecomplete__validationprix{
-   
-    display: flex;
-    flex-direction: row;
-    margin-left: 16rem;   
-    margin-top: -3rem;
-   
-    
-}
-.restaurant-cartecomplete__validationprix:hover{
-    
-    animation: left 1s;
-}
+
 
 div.restaurant-cartecomplete__check{
     opacity: 0;
@@ -618,19 +617,17 @@ div.restaurant-cartecomplete__check{
     border-radius: 0px 20px 20px 0px;
     position: relative;
     display: block;
+    
    
 }
-div.restaurant-cartecomplete__check:hover{
-    opacity: 1;
-}
+
 i.fas.fa-check-circle{
-    margin-top: 1.5rem;
+   position: absolute;
+    font-size: 1.5rem;
+    top: 40%;
+    left: 40%;
 }
 
-i.fas.fa-check-circle:hover{
-
-  animation: rotate 2s;
-}
 
 
 

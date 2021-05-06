@@ -585,10 +585,13 @@ h2.restaurant-cartecomplete__titre{
 
 div.restaurant-cartecomplete__prix{
     
-   margin-top: 1.5rem;
+   
     font-family: 'Raleway SemiBold';
     font-size: 0.8rem;
   
+}
+.restaurant-cartecomplete__menuinfos{
+    display: flex;
 }
 
 .restaurant-cartecomplete__validationprix{

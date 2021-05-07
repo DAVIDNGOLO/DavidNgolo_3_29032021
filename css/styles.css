@@ -49,8 +49,13 @@
    padding-bottom: 1.5rem;
     width: 50%;
     height: 0.5rem;
-    
+    filter: brightness(85%);
     box-shadow: 0 4px 8px grey;
+}
+.commander:hover{
+    cursor: pointer;
+    box-shadow: 0 4px 8px black;
+    filter: brightness(100%);
 }
 
 .disflexcol{
@@ -168,8 +173,15 @@ header{
     height: 2rem;
     padding: 0.5rem;
     box-shadow: 0 4px 8px grey;
-  
+  filter: brightness(85%);
 }
+.Header__exploration:hover{
+    box-shadow: 0 4px 8px black;
+    filter: brightness(100%);
+    cursor: pointer;
+}
+
+
 
 /************ section 1 fonctionnement********/
 
@@ -684,10 +696,11 @@ i.fas.fa-check-circle{
     }
     .Header__exploration{
 
-        
+        cursor: pointer;
         width: 30%;
        
     }
+    
     .Header__acceuil {
         margin-top: -2rem;
     }

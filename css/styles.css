@@ -426,6 +426,8 @@ i.fas.fa-arrow-left.left{
 keyframes
 /*************/
 
+
+
 @keyframes chargeur {
     0%{
         transform: rotate(0deg) scale(1);
@@ -500,6 +502,15 @@ keyframes
 }
 
 
+@keyframes price{
+    from {
+        margin-left: 4rem;
+
+    }
+    to{
+        margin-left: 0;
+    }
+}
 
 @keyframes slidedown{
     from {
@@ -605,10 +616,14 @@ h2.restaurant-cartecomplete__titre{
     text-overflow:ellipsis;
     width: 220px;
 }
+.restaurant-cartecomplete__accompagnement:hover + div.restaurant-cartecomplete__prix{
+    animation: price 1s;
+    margin-left: 0;
+}
 
 div.restaurant-cartecomplete__prix{
     
-   
+   margin-left: 4rem;
     font-family: 'Raleway SemiBold';
     font-size: 0.8rem;
   
@@ -818,7 +833,7 @@ i.fas.fa-check-circle{
         width: 96%;
     }    
     div.restaurant-cartecomplete__bulle{
-        width: 50%;
+        width: 45%;
         margin-left: 20rem;
         height:5rem;
         

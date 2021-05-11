@@ -695,7 +695,7 @@ i.fas.fa-check-circle{
   
     
 }
-/*
+
 @media all and (device-width: 1024px) and (device-height: 768px) and (orientation:landscape){
     .loader{
         margin-left: 26rem;
@@ -720,10 +720,10 @@ i.fas.fa-check-circle{
     }
    
 }
-*/
+
 
 /* media queries desktop */
-@media  screen and (min-width: 1440px){
+@media  screen and (min-width: 1366px){
 
 
     /****** page d'acceuil *****/

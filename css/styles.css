@@ -693,7 +693,7 @@ i.fas.fa-check-circle{
         margin-left: -7rem;
     }
   
-    
+
 }
 
 @media all and (device-width: 1024px) and (device-height: 768px) and (orientation:landscape){
@@ -718,7 +718,11 @@ i.fas.fa-check-circle{
     div.restaurant-cartecomplete__prix{
         padding-right: 1rem;
     }
-   
+    ul.Footer_logo--listpuce{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        }
 }
 
 
@@ -921,10 +925,3 @@ i.fas.fa-check-circle{
 }
 
 
-
-@media screen and (min-width: 1600px){
-    .fullpage{
-        max-width: 1600px;
-        width: auto;
-    }
-}

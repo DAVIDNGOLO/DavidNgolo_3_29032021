@@ -775,6 +775,7 @@ i.fas.fa-check-circle{
         flex-direction: row;
         margin-left: -3rem;
         justify-content: space-around;
+        cursor: pointer;
        
     }
      

@@ -678,6 +678,11 @@ i.fas.fa-check-circle{
     .fonctionnement__numero{
         margin-left: -6.5rem;
     }
+    ul.Footer_logo--listepuce{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
 }
 /* media queries ipad */
 @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait){
@@ -723,6 +728,12 @@ i.fas.fa-check-circle{
         flex-direction: row;
         justify-content: space-evenly;
         }
+        ul.Footer_logo--listepuce{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        
 }
 
 
@@ -921,6 +932,11 @@ i.fas.fa-check-circle{
     padding-top: 1rem;
     width: 30%;
     height: 3rem;
+    }
+    .ul.Footer_logo--listepuce{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
     }
     
 }

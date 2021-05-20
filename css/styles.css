@@ -614,7 +614,7 @@ i.fas.fa-check-circle{
 h2.restaurant-cartecomplete__titre{
     font-size: 1rem;
     border-bottom: rgb(36, 167, 36) solid;
-    width: 10%;
+    width: 5%;
    margin-top: 0.8rem;
 }
 .restaurant-cartecomplete__plat{
@@ -701,7 +701,7 @@ i.fas.fa-check-circle{
         flex-direction: row;
         justify-content: space-around;
     }
-   
+    
 }
 /* media queries ipad */
 @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait){
@@ -723,6 +723,9 @@ i.fas.fa-check-circle{
     }
     .Footer_logo--title{
         margin-left: 0.2rem;
+    }
+    div.restaurant-cartecomplete__prix{
+        margin-left: 19rem;
     }
   
 
@@ -982,5 +985,3 @@ i.fas.fa-check-circle{
     
 
 }
-
-

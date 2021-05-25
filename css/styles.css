@@ -689,7 +689,7 @@ i.fas.fa-check-circle{
 
 
 /* media queries landscape iphone */
-@media all and  and (orientation: landscape) {
+@media all and (orientation: landscape) {
      .loader{
          margin-left: 17rem;
      }

@@ -335,7 +335,7 @@ h1{
 
 i.restaurant__logo.far.fa-heart{
     
-    margin-left: 4rem;
+    margin-left: 3rem;
     border-radius: 100%;
 }
 .fas.fa-heart{
@@ -803,13 +803,15 @@ i.fas.fa-check-circle{
    
     
     
-    
+    .header__input input{
+        padding-bottom: 1.5rem;
+    }
     i.fas.fa-map-marker-alt{
         
-        margin-left: 36rem;
+        margin-left: 38rem;
         position: absolute;
         z-index: 4;
-        
+        margin-top: 1.2rem;
         
     }
     .Header__exploration{

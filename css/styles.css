@@ -314,6 +314,7 @@ h1{
 
 .restaurant__card--like{
     display: flex;
+    margin-right: 1rem;
 }
 .restaurant__card--heartbeat{
     margin-left: 2.3rem;
@@ -335,7 +336,7 @@ h1{
 
 i.restaurant__logo.far.fa-heart{
     
-    margin-left: 3rem;
+    margin-left: 1rem;
     border-radius: 100%;
 }
 .fas.fa-heart{
@@ -346,7 +347,7 @@ i.restaurant__logo.far.fa-heart{
 }
 .fas.fa-heart:active{
     opacity: 0.5;
-    transition: opacity 1s;
+    transition: opacity 1s infinite;
 }
 
 /************ footer ********/
@@ -656,7 +657,7 @@ h2.restaurant-cartecomplete__titre{
     
     overflow: hidden;
     
-    white-space: nowrap;
+    
     
     text-overflow:ellipsis;
     /*

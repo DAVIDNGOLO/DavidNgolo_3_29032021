@@ -939,7 +939,7 @@ i.fas.fa-check-circle{
     }
     .restaurant__card--heartbeat:active{
         opacity: 0.5;
-        transition: opacity 1s infinite;
+        transition: opacity  infinite;
     
     }
    

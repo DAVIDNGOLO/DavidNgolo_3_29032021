@@ -741,7 +741,7 @@ i.fas.fa-check-circle{
          margin-left: 17rem;
      }
     .fonctionnement__numero{
-        margin-left: -6.5rem;
+        margin-left: -10.5rem;
     }
     ul.Footer_logo--listepuce{
         display: flex;
@@ -783,57 +783,6 @@ i.fas.fa-check-circle{
 
 }
 
-@media all and (max-width: 1024px) and (min-height: 768px) and (orientation:landscape){
-   
-    .loader{
-        margin-left: 26rem;
-    }
-    
-    .restaurant-header__logo{
-        margin-left: 10rem;
-    }
-    .fonctionnement__numero{
-        margin-left: -9.5rem;
-    }
-    .restaurant-cartecomplete__main{
-        margin-left: 0.5rem;
-    }
-    .restaurant-cartecomplete__dessert{
-        margin-left: 0.5rem;
-    }
-    h1.restaurant-cartecomplete__header{
-        margin-left: 20rem;
-    }
-    
-    
-    .restaurant-cartecomplete__EPD{
-        display: flex;
-        flex-direction: row;
-    }
-    .restaurant-cartecomplete__EP{
-        display: flex;
-        flex-direction: row;
-    }
-    
-    
-    .restaurant-cartecomplete__prix{
-        padding-right: 1rem;
-    }
-    ul.Footer_logo--listpuce{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        }
-        ul.Footer_logo--listepuce{
-            display: flex;
-            flex-direction: row;
-            justify-content: space-around;
-        }
-        .Footer_logo--title{
-            margin-left: 2rem;
-        }
-        
-}
 
 
 /* media queries desktop */
@@ -921,7 +870,7 @@ i.fas.fa-check-circle{
     .restaurants__section{
         display: flex;
         flex-direction: row;
-        
+        justify-content: space-evenly;
     }
     img.restaurants__card--image{
         height: 10rem;
@@ -979,7 +928,6 @@ i.fas.fa-check-circle{
     
     
     
-
      /****** Menu *****/
            
            
@@ -1047,7 +995,22 @@ i.fas.fa-check-circle{
     }
     
 }
+@media  screen and (min-width: 1920px){
 
+    .restaurant-cartecomplete__dessert {
+        margin-left: 5rem;
+    }
+    .restaurant-cartecomplete__dessert {
+        margin-left: 18rem;
+    }
+    .commander{
+        margin-right: 44rem;
+    }
+    .fonctionnement__numero {
+        margin-left: -12rem;
+    }
+    
+}
 @media screen and (min-width: 2000px){
     .fullpage{
         max-width: 2000px;

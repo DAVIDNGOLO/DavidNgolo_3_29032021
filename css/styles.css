@@ -347,7 +347,7 @@ i.restaurant__logo.far.fa-heart{
 }
 .fas.fa-heart:hover{
     opacity: 0.7;
-    transition: opacity 1s infinite;
+    transition: opacity 1s ;
 }
 
 /************ footer ********/
@@ -755,7 +755,7 @@ i.fas.fa-check-circle{
 }
 /* media queries ipad */
 
-@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait){
+@media all and (width: 768px) and (height: 1024px) and (orientation:portrait){
    /****** page d'acceuil *****/
            /******  *****/   
            
@@ -941,14 +941,14 @@ i.fas.fa-check-circle{
        font-size: 1rem;
        height: 0.9rem;
        width: 5rem;
-       padding-top: -1rem;
+      
     }
     .restaurant__card--like{
         margin-left: 0;
     }
     .restaurant__card--heartbeat:hover{
         opacity: 0.5;
-        transition: opacity  infinite;
+        transition: opacity  ;
     
     }
    
@@ -997,7 +997,7 @@ i.fas.fa-check-circle{
     }   
     .restaurant-cartecomplete__EP{
         display: flex;
-        justify-content: space space-evenly;
+        justify-content:  space-evenly;
     }
     
     .restaurant-cartecomplete__starter{
